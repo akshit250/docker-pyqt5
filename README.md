@@ -10,9 +10,9 @@ https://github.com/jozo/docker-pyqt5
 https://hub.docker.com/r/fadawar/docker-pyqt5/
 
 ## How to use it
-You can **clone** this github repository and then run this command to check if it's working
+You can **#clone#** this github repository and then run this command to check if it's working or not.
 
-**Run**
+**##Run##**
 ```
 docker run -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -26,7 +26,7 @@ You should see window similar to this:
 
 ![Screenshot](example-screenshot.png)
 
-**Build**
+**##Build##**
 ```
 docker build -t fadawar/pyqt5 .
 ```
